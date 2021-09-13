@@ -1,3 +1,9 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+}
 @media (min-width: 992px){
     .col-lg-4 {
         width: 33.33%;
@@ -9,10 +15,44 @@
         width: 50%;
         float: left;
     }
+    .except{
+        width: 100%;
+    }
 }
 @media (max-width: 767px) {
     .col-sm-12{
         width: 100%;
         float: left;
     }
+}
+.row>div{
+    
+    
+}
+.chiken, .beef, .sushi{
+    position: absolute;
+    border: 2px solid #000;
+    text-align: center;
+    margin: 0;
+    padding: 3px;
+    top: -2px;
+    right: -2px;
+    background-color: aquamarine;
+    width: 80px;
+    font-weight: bold;
+}
+.beef{
+    background-color: hotpink;
+}
+.content {
+    clear: both;
+    margin-top: 30px;
+    padding: 10px;
+}
+.div-inside{
+    position: relative;
+    margin: 10px;
+    background-color: grey;
+    box-sizing: border-box;
+    border: 2px solid #000;
 }
