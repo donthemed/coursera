@@ -1,0 +1,11 @@
+@media (min-width: 992px){
+    .col-lg-4 {
+        width: 33.33%;
+    }
+}
+@media (min-wdth: 768px) and (max-width: 991px){
+
+}
+@media (max-width: 767px) {
+    
+}
