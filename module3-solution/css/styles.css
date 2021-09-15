@@ -27,6 +27,12 @@ section p {
     font-size: 1.2em;
     font-weight: bold;
 }
+section span {
+    color: #000;
+}
+h1 {
+    margin-bottom: 20px;
+}
 /******** responsive code ********/
 @media(max-width: 767px){
     .navbar-header .navbar-brand {
