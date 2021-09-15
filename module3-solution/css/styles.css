@@ -1,0 +1,35 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+.container-fluid {
+    background-color: #b3b3b3;
+}
+.container-fluid .navbar-nav>li>a {
+    color: #000;
+    text-align: center;
+}
+.container-fluid .navbar-nav>li:nth-child(1)>a, .container-fluid .navbar-nav>li:nth-child(2)>a {
+    color: #000;
+    text-align: center;
+    border-bottom: 2px solid #000;
+}
+.navbar-header .navbar-brand {
+    font-size: 1.6em;
+    color: #000;
+    font-weight: bold;
+}
+section {
+    background: #b3b3b3;
+    padding: 15px;
+}
+section p {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+/******** responsive code ********/
+@media(max-width: 767px){
+    .navbar-header .navbar-brand {
+        font-size: 2em;
+    }
+}
